@@ -5,6 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      li {
+        padding: 0.25rem;
+        margin: 0.25rem;
+        list-style: none;
+      }
+      li:first-child {
+        background-color: red;
+      }
+      li:last-child {
+        background-color: red;
+      }
+      li:nth-child(3) {
+        background-color: purple !important;
+      }
+      li:nth-child(3n) {
+        background-color: yellow;
+      }
+      li:nth-child(3n + 7) {
+        background-color: teal;
+      }
+      li:nth-child(even) {
+        background-color: violet;
+      }
+    </style>
   </head>
   <body>
     <ul>
@@ -18,6 +43,16 @@
       <li>Item 8</li>
       <li>Item 9</li>
       <li>Item 10</li>
+      <li>Item 11</li>
+      <li>Item 12</li>
+      <li>Item 13</li>
+      <li>Item 14</li>
+      <li>Item 15</li>
+      <li>Item 16</li>
+      <li>Item 17</li>
+      <li>Item 18</li>
+      <li>Item 19</li>
+      <li>Item 20</li>
     </ul>
   </body>
 </html>
